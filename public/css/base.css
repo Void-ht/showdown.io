@@ -1,0 +1,20 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/*PS: Better of using a canvas?*/
+#gameCanvas {
+    width: 100vw;
+    height: 100vh;
+    background-color: #f0f0f0; /* Light gray background */
+    background-image: linear-gradient(to right, #dcdcdc 1px, transparent 1px),
+                      linear-gradient(to bottom, #dcdcdc 1px, transparent 1px);
+    background-size: 20px 20px; /* Size of grid cells */
+    position: relative; /* Ensure absolute positioning of game elements */
+}
